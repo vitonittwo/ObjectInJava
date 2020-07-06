@@ -3,7 +3,8 @@ public class Puppy {
     int puppyAge;
 
     // this method displays the puppy name
-    public Puppy(String name) {
+    public Puppy(String name)
+    {
         System.out.println("Puppy name is " + name);
     }
 
