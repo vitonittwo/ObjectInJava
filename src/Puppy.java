@@ -16,7 +16,12 @@ public class Puppy {
 
     // this method sets the puppy age
     public void setAge(int age) {
+
         puppyAge = age;
+        if (age < 0)
+        {
+            System.out.println("invalid variable value");
+        }
     }
 
 public static void main(String[] args) {
@@ -26,7 +31,7 @@ public static void main(String[] args) {
     myPuppy.setAge( 4 );
     myPuppy.getAge();
          Puppy yourPuppy = new Puppy("Karry");
-    yourPuppy.setAge( 7 );
+    yourPuppy.setAge(  7 );
     yourPuppy.getAge();
          Puppy herPuppy = new Puppy("Lilly");
     herPuppy.setAge( 5 );
@@ -42,6 +47,11 @@ public static void main(String[] args) {
 
 
 }
+
+   // int age = 0;
+   // if (age < 0) {
+    //    System.out.println("invalid variable value");
+     //   }
 
 
    // String[] whosePuppy = {"My", "Your", "Her", "His", "That"};

@@ -3,9 +3,10 @@ public class EmployeeTest
 {
     public static void main(String[] args)
     {
-       // create two objects off class Employee
+       // create three objects off class Employee
         Employee firstEmp = new Employee ("Jon Daimond");
         Employee secondEmp = new Employee ("Eric Floor");
+        Employee thirdEmp = new Employee ("Dona Ripply");
 
         // enter object parameters
         firstEmp.employeeAge(26);
@@ -16,9 +17,14 @@ public class EmployeeTest
         secondEmp.employeePosition("Sale engineer");
         secondEmp.employeeSalary(2700);
 
+        thirdEmp.employeeAge(- 29);
+        thirdEmp.employeePosition("Sale manager");
+        thirdEmp.employeeSalary(2700);
+
         // call the method
         firstEmp.printEmployee();
         secondEmp.printEmployee();
+        thirdEmp.printEmployee();
     }
 
 }

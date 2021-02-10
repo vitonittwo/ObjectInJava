@@ -16,8 +16,13 @@ public class Employee
     // Assigning an employee's age to variable Age
     public void employeeAge(int employeeAge)
     {
+        if (age < 0)
+        {
+            System.out.println("invalid variable value");
+        }
         age = employeeAge;
     }
+
 // Assigning an employee's position to variable Position
     public void employeePosition(String employeePosition)
     {
