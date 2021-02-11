@@ -17,7 +17,7 @@ public class EmployeeTest
         secondEmp.employeePosition("Sale engineer");
         secondEmp.employeeSalary(2700);
 
-        thirdEmp.employeeAge(- 29);
+        thirdEmp.employeeAge(29);
         thirdEmp.employeePosition("Sale manager");
         thirdEmp.employeeSalary(2700);
 
@@ -25,6 +25,8 @@ public class EmployeeTest
         firstEmp.printEmployee();
         secondEmp.printEmployee();
         thirdEmp.printEmployee();
+
+
     }
 
 }
